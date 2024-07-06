@@ -1,0 +1,70 @@
+.aboutMaior {
+  display: flex;
+  width: 100%;
+  gap: 50px;
+}
+
+.aboutFoto {
+  width: 40%;
+  margin: 30px 0 30px 30px;
+}
+.aboutTexto {
+  font-size: large;
+  width: 50%;
+  padding: 30px 30px 30px 0;
+}
+
+.main {
+  background: url("../../public/bg2.jpg") center center;
+  background-size: cover;
+  height: 100vh;
+  padding: 10% 10px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+  -webkit-justify-content: center;
+  justify-content: center;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* animation: slide 15s infinite; */
+}
+
+.mainTitle {
+  margin-top: 80px;
+  -webkit-flex: 1 0 auto;
+  flex: 1 0 auto;
+  color: #fff;
+  text-align: center;
+  font-size: 60px;
+  text-shadow: 0px 2px 10px rgb(41, 39, 39);
+}
+.subTitle {
+  font-size: 25px;
+  text-align: center;
+  color: #fff;
+  text-shadow: 0px 2px 10px rgb(41, 39, 39);
+}
+
+.search {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.stories {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.card {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

@@ -1,0 +1,41 @@
+.background {
+  background: url("../../public/community/cover.png") no-repeat bottom center
+    scroll;
+  background-size: cover;
+  height: 50vh;
+}
+.paragrafo {
+  font-size: 25px;
+  font-style: italic;
+  text-shadow: 0px 2px 5px black;
+  color: aliceblue;
+  text-align: center;
+  align-self: center;
+  justify-self: center;
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.search {
+  display: flex;
+  place-content: center;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.dividir {
+  margin: 25px;
+}
+
+.guidecards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  place-content: center;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+  margin: 20px 20px 30px 20px;
+}

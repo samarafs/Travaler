@@ -1,0 +1,136 @@
+.travel {
+  display: flex;
+  justify-content: space-around;
+  padding: 15px;
+}
+.hr {
+  width: 100%;
+  border: 0;
+  background: #bbbcbc;
+  height: 1px;
+  margin-top: 20px;
+}
+.image {
+  width: 25%;
+  margin: 1%;
+  border-radius: 2rem;
+}
+.traveldata {
+  width: 70%;
+  margin-left: 1rem;
+  padding: 2%;
+  display: flex;
+  flex-direction: column;
+  color: var(--black, #333);
+  text-align: center;
+  font-size: 27.119px;
+  font-style: normal;
+  line-height: normal;
+}
+
+.caracteristicas {
+  font-size: 25px;
+}
+.tituloviagem {
+  font-weight: bolder;
+  display: flex;
+  margin-top: 1%;
+}
+.caracteristicas {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+  height: 70%;
+}
+.legendesq {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 15px;
+}
+.legendireita {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16.949px;
+}
+.ti {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1%;
+  color: var(--black, #333);
+  font-size: 15.254px;
+  font-style: normal;
+  line-height: 22.034px; /* 144.444% */
+}
+.column1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 28.814px;
+}
+.priceFrom {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  font-style: normal;
+  line-height: normal;
+}
+.price {
+  display: flex;
+  align-items: center;
+  gap: 13.559px;
+  margin-left: 3px;
+  font-size: 27.119px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.ask {
+  font-weight: bold;
+  margin-right: 3px;
+  font-size: large;
+}
+.botoes {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 15px;
+}
+
+.buttonBooK {
+  padding: 8px 20px;
+  border-radius: 40px;
+  border: 1px solid #fa8b02;
+  color: #fa8b02;
+  width: 130px;
+  height: 40px;
+  font-weight: bold;
+  border-radius: 42.373px;
+  background-color: #fa8b02;
+  color: white;
+  font-size: 15px;
+}
+
+.buttontour {
+  padding: 8px 20px;
+  border-radius: 40px;
+  border: 1px solid #fa8b02;
+  color: #fa8b02;
+  width: 130px;
+  height: 40px;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.icon {
+  color: #fa8b02;
+  margin-right: 1rem;
+}
+.result {
+  text-transform: capitalize;
+  display: flex;
+  align-items: center;
+  font-size: large;
+}

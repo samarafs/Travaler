@@ -1,0 +1,67 @@
+.background {
+  background: url("../../public/community/cover.png") no-repeat bottom
+    center scroll;
+  background-size: cover;
+  height: 50vh;
+}
+
+.slogan {
+  font-size: 25px;
+  font-style: italic;
+  text-shadow: 0px 2px 5px black;
+  color: aliceblue;
+  text-align: center;
+  align-self: center;
+  justify-self: center;
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.page {
+  width: 100%;
+  text-align: center;
+  align-self: center;
+  justify-self: center;
+  margin-top: 75px;
+}
+
+.imgs {
+  margin: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imgone {
+  background: url("../../public/community/communityimagethree.png") no-repeat
+    center scroll;
+  background-color: aquamarine;
+  width: 410px;
+  height: 592px;
+}
+
+.twoimgs {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-left: 10px;
+}
+
+.imgtwo {
+  background: url("../../public/community/communityimageone.png") no-repeat top
+    center scroll;
+  background-color: aquamarine;
+  width: 400px;
+  height: 290px;
+}
+
+.imgthree {
+  background: url("../../public/community/communityimagetwo.png") no-repeat top
+    center scroll;
+  background-color: aquamarine;
+  width: 400px;
+  height: 290px;
+}
+

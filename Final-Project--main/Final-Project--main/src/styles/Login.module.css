@@ -1,0 +1,62 @@
+.background {
+  display: table;
+  width: 100%;
+  height: 100vh;
+  background-position: 30% 45%;
+  background-size: cover;
+  backdrop-filter: blur(100px);
+  /* filter: blur(20px) grayscale(0.75); */
+  /* filter: blur(8px);
+    -webkit-filter: blur(8px); */
+}
+
+.divtudo {
+  /* height: 50%;
+  width: 17%;
+  border-radius: 30px;
+  border: 3px solid #197084;
+  background-color: #197084; */
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.circulo {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 80px;
+  width: 80px;
+  border-radius: 50px;
+  background-color: #f6ae2d;
+  /* display: flex;
+  justify-content: center;
+  align-self: center; */
+}
+
+.form {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.submit {
+  margin: 20px auto;
+  padding: 3px;
+  color: white;
+  width: 100px;
+  height: 30px;
+  border-radius: 25px;
+  background-color: #f6ae2d;
+  text-align: center;
+}
+
+.textoslogin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}

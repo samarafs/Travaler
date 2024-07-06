@@ -1,0 +1,9 @@
+.background {
+  /* background: url("../../public/banner.png") no-repeat bottom center scroll;
+  background-size: cover;
+  height: 50vh; */
+}
+
+.page {
+  min-height: 70vh; /* Adjust the height as needed */
+}
